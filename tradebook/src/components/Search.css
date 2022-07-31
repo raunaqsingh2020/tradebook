@@ -1,0 +1,40 @@
+.buttonAdd {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border: solid 1px orange;
+}
+
+.buttonAdd:hover {
+  color: white;
+  background-color: orange;
+  cursor: pointer;
+}
+
+.add_window {
+  position: fixed;
+  padding: 20px;
+  height: 500px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
+  margin-right: auto;
+  top: 100px;
+  opacity: 1;
+  background-color: whitesmoke;
+}
+
+.add_window input,
+.add_window button {
+  width: 50%;
+  min-width: 200px;
+  padding: 3px;
+  margin: 10px;
+  display: block;
+}
